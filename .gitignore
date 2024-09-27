@@ -59,5 +59,3 @@ build/
 # environment
 .env
 request*.json
-/element-templates/dynamics-connector.json
-/element-templates/

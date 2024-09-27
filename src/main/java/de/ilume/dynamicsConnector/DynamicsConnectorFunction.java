@@ -24,12 +24,12 @@ import org.springframework.stereotype.Component;
  * Connector Main Method
  */
 @OutboundConnector(
-        name = "Ilume Dynamics Connector",
+        name = "IlumeDynamicsConnector",
         inputVariables = {"authentication", "target", "operation", "fields", "accountId", "requestBody"},
         type = "getDynamicsData")
 @ElementTemplate(
         id = "ilume.connector.dynamics.v2",
-        name = "Ilume Dynamics Connector",
+        name = "IlumeDynamicsConnector",
         version = 4,
         description = "Connects to a microsoft dataverse instance and runs different request.",
         icon = "ilume_logo.svg",

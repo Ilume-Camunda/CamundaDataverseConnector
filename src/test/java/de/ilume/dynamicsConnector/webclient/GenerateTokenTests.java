@@ -55,7 +55,7 @@ class GenerateTokenTests {
                 .setBody(mockResponseBody));
 
         // Call the method under test
-        Mono<String> tokenMono = GenerateTokenService.getToken(baseUrl, clientId, clientSecret, scope, accessTokenUrl);
+        Mono<String> tokenMono = generateTokenService.getToken(baseUrl, clientId, clientSecret, scope, accessTokenUrl);
 
         // Verify the result
         StepVerifier.create(tokenMono)
